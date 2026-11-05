@@ -478,4 +478,6 @@ print("d/da [relu(2a) + e^a] at a=1.5 =", round(a.grad, 4), " (expected 2 + e^1.
 %%md
 **🎉 You've finished the core series.** Recap of the path: Python & NumPy → linear models & gradient descent → logistic regression → honest evaluation → KNN/NB/SVM → trees & ensembles → unsupervised learning → neural networks.
 
+**Next:** [08 · Data Preparation & EDA](08_data_preparation_and_eda.ipynb) — the practical track: working with a real, messy dataset from raw CSV to a shipped, explained model.
+
 *Going deeper / interview prep:* `DL_Interview_Notes.md` Parts 1–4 (backprop, init, normalisation, optimisers, regularisation) and Parts 5–7 (CNNs, RNNs, transformers) · `Calculus_Notes.md` Part 3 (chain rule & autodiff, forward vs reverse mode) · code: `dl_from_scratch.py` (CNN, LSTM, attention, transformer from scratch) · `ml_from_scratch.py` → `MLP`.

@@ -1,0 +1,5 @@
+# created when running notebooks 09 and 11
+models/
+catboost_info/
+__pycache__/
+.ipynb_checkpoints/

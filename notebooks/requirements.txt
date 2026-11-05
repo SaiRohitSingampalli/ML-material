@@ -1,7 +1,24 @@
 numpy>=1.26
 pandas>=2.0
-matplotlib>=3.8
+matplotlib>=3.10      # notebooks 08–10 use boxplot(orientation=...), added in 3.10
 scikit-learn>=1.4
 scipy>=1.11
 torch>=2.2
 jupyterlab>=4.0
+# Part 2 (notebooks 08–11)
+xgboost>=2.0
+lightgbm>=4.0
+catboost>=1.2
+shap>=0.45
+optuna>=3.5
+joblib>=1.3
+# Part 3 (notebooks 12–14)
+statsmodels>=0.14
+sympy>=1.12
+# Part 4 (notebooks 15–17)
+tokenizers>=0.15
+# Part 5 (notebooks 18–22)
+networkx>=3.0
+fastapi>=0.110
+httpx>=0.27
+pydantic>=2.0
